@@ -24,7 +24,6 @@ db = fb.database()
 # Test route til að setja gögn í db
 @app.route('/')
 def index():
-	db.child("bill").push({"Fyrirtæki":"Toyota", "Gerð":"Highlander", "Númer":4, "Árgerð":1234}) 
 	return render_template("index.html")
 
 
