@@ -1,0 +1,7 @@
+body {
+    background: linear-gradient(yellow, red, green);
+    color: black;
+    height: 100%;
+    width: auto;
+    text-align: center;
+}
