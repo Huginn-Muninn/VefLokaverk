@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="{{ url_for('static',filename='main.css') }}">
+    <head>
+        <title>Update car</title>
+    </head>
+    <h1>Breyta bíl</h1>
+    <form action="/updgrate" method="POST">
+        Upprunalega Númer:<br>
+        <input type="text" name="numer2" required>
+        <br>
+        Fyrirtæki:<br>
+        <input type="text" name="fyrirtaeki" required>
+        <br>
+        Gerð:<br>
+        <input type="text" name="gerd" required>
+        <br>
+        Nýja Númer:<br>
+        <input type="text" name="numer" required>
+        <br>
+        Árgerð:<br>
+        <input type="text" name="argerd" required>
+        <br><br>
+        <input type="submit" value="skrá">
+    </form>
+</html>

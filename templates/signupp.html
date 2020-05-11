@@ -1,0 +1,20 @@
+<html lang="en">
+    <link rel="stylesheet" href="{{ url_for('static',filename='main.css') }}">
+    <head>
+        <title>SIGNUPP</title>
+    </head>
+    <body>
+        <h1>SIGNUPP</h1>
+        <form action="/info" method="POST">
+            Notendanafn:<br>
+            <input type="text" name="notendanafn" required>
+            <br>
+            Lykilorð:<br>
+            <input type="text" name="lykilord" required>
+            <br><br>
+            <input type="submit" value="Sign up">
+            <br><br>
+            Already have a account?<a href="/">login now!</a>
+        </form>
+    </body>
+</html>
